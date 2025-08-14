@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Column Layout</title>
+    <style>
+        .wrapper {
+            width: 90%;
+            height: 80vh;
+            margin: 10vh auto;
+        }
+
+        .bg1 {
+            background-color: blueviolet;
+        }
+
+        .bg2 {
+            background-color: violet;
+        }
+
+        .bg3 {
+            background-color: wheat;
+        }
+
+        .bg4 {
+            background-color: lightgreen;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .new {
+            float: left;
+            margin-left: 1%;
+        }
+
+        .col-4 {
+            width: 23.25%;
+            height: 80vh;
+        }
+        .col-1{
+            height: 19.2vh;
+            margin: 1%;
+        }
+        .col12{
+            width: 49.5%;
+            height: 19.2vh;}
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="col-4 fl">
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+            <div class="col-1 bg3"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+
+        <div class="col-4  new">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1 bg3"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+        <div class="col-4  new">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+        </div>
+        <div class="col-4  fr">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1bg ">
+                
+            </div>
+            <div class="col-1 ">
+                <div class="col12 fl bg1"></div>
+                <div class="col12 fr bg2"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
