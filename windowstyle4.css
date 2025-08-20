@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.new {
+    float: left;
+    margin-left: 1%;
+}
+
+.clr {
+    clear: both;
+}
+
+.head {
+    height: 10vh;
+    background-color: #404040;
+}
+
+.wrapper {
+    width: 90%;
+    height: 88vh;
+    margin: 1vh auto;
+}
+
+.left {
+    width: 70%;
+    height: 88vh;
+
+}
+
+.nav {
+    height: 4vh;
+    background-color: gray;
+    margin-bottom: 1vh;
+}
+
+.pro {
+    width: 70%;
+    height: 84vh;
+
+}
+
+.card {
+    width: 32.65%;
+    min-height: 25vh;
+
+    margin-bottom: 1vh;
+    background-color: whitesmoke;
+}
+
+.tab {
+    height: 4vh;
+    background-color: #404040;
+    margin-bottom: 1vh;
+}
+
+.photo {
+    height: 20vh;
+    background-color: gray;
+}
+
+.card p {
+    text-align: justify;
+}
+
+.banner {
+    height: 20vh;
+    background-color: #404040;
+}
+
+
+
+
+.aside {
+    width: 29%;
+    height: 84vh;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+.right {
+    width: 29%;
+    height: 88vh;
+
+}
+
+.profile {
+    height: 40vh;
+    background-color: #404040;
+    margin-bottom: 1vh;
+}
+
+.post {
+    width: 20%;
+    height: 15vh;
+    background-color: #404040;
+    margin-bottom: 1vh;
+}
+
+.right p {
+    width: 79%;
+}

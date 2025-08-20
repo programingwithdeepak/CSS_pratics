@@ -1,0 +1,124 @@
+
+ * {
+    margin: 0;
+
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    margin-bottom: 1vh;
+
+}
+.wrapper{
+    width: 90%;
+    height: 89vh;
+    margin:  auto;
+}
+.left{
+    width: 70%;
+    height: 89vh;
+
+}
+.right {
+    width: 29%;
+    height: 89vh;
+
+}
+.iconbody{
+    width: 60%;
+    height: 3vh;
+    margin-bottom: 1vh;
+    
+}
+.icon{
+    width: 32.6%;
+    height: 3vh;
+    background-color: #454545;
+    
+}
+.banner{
+    width: 100%;
+    height: 40vh;
+    background-color: #454545;
+    margin-bottom: 1vh;
+}
+.main{
+    width: 100%;
+    height: 49vh;
+
+    
+}
+.row{
+    width: 100%;
+    height: 24vh;
+    margin-bottom: 1vh;
+    
+}
+.item{
+    width: 19.2%;
+    min-height: 23.5vh;
+    margin-bottom: 1vh;
+}
+ .p1{
+    align-content: justify;
+    background-color: #454545;
+    min-height: 19vh;
+}
+.p2 {
+    align-content: justify;
+    background-color: whitesmoke;
+    min-height: 4.5vh;
+}
+.navbanner{
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    margin-bottom: 1vh;
+}
+.article{
+    width: 100%;
+    height: 40vh;
+    background-color: #454545;
+    margin-bottom: 1vh;
+}
+.content{
+    width: 100%;
+    height: 21vh;
+    margin-bottom: 1vh;
+}
+.photo{
+    width: 49.5%;
+    min-height: 20.5vh;
+    background-color: #454545;
+    margin-bottom: 1vh;
+    
+}
+.photo p{
+    align-content: justify;
+}
+.bg1{
+    background-color: whitesmoke;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.new{
+    float: left;
+    margin-left: 1%;
+}
+.clr{
+    clear: both;
+}
+
+.p2 p{
+    text-align: justify;
+
+}
+.photo p{
+    text-align: justify;
+    
+}
