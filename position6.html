@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .main{
+            width: 400px;
+            height: 400px;
+            background-color: antiquewhite;
+            border-radius: 50%;
+            margin: 15vh auto;
+            position: relative;
+        }
+        .ear{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: aqua;
+            position: absolute;
+            z-index: -1;
+        }
+        .e1{
+            right: 350px;
+            bottom: 250px;
+        }
+         .e2{
+            left: 350px;
+            bottom: 250px;
+        }
+         .eye{
+            width: 80px;
+            height: 120px;
+            border-radius: 70%;
+            background-color: aqua;
+            position: absolute;
+            
+        }
+
+        .ey1{
+            top: 100px;
+            left:80px ;
+        }
+        .ey2{
+            top: 100px;
+            right:80px ;
+        }
+        .eym{
+          width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            
+        }
+        .eym1{
+            top:40px ;
+        }
+        .eym2{
+            top:40px ;
+        }
+        .mouth{
+            width: 150px;
+            height: 70px;
+            background-color: white;
+            position:absolute;
+            top: 300px;
+            left: 130px;
+            border-radius: 50%;
+        }
+        .noise{
+            width: 80px;
+            height: 80px;
+            box-sizing: border-box;
+            border-top: 40px solid transparent;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 40px solid blue;
+            position: absolute;
+        }
+        .n{
+          position: absolute;
+          top: 190px;
+          left: 160px;
+        }
+       
+
+    
+    
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="ear e1"></div>
+        <div class="ear e2"></div>
+
+        <div class="eye ey1">
+            <div class="eym eym1"></div>
+            
+        </div>
+        <div class="eye ey2">
+            <div class="eym eym2"></div>
+        </div>
+        <div class="mouth"></div>
+        <div class="noise  n"></div>
+    </div>
+    
+</body>
+</html>
