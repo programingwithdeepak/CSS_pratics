@@ -4,3 +4,8 @@ h1{
 p{
     color: red;
 }
+a{
+    font-size: large;
+    text-decoration: none;
+    text-transform: capitalize;
+}
