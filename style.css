@@ -1,6 +1,6 @@
 .heading{
-    height: 100px;
-    line-height: 100px;
+    height: 90px;
+    line-height: 90px;
     border: 2px solid;
     text-align: center;
 
@@ -11,7 +11,7 @@
     color:brown;
 }
 .description{
-    height: 150px;
+    height: 110px;
     text-align: center;
     border: 2px solid;
     margin-bottom:20px;
