@@ -1,11 +1,26 @@
-h1{
-    color:brown;
-    text-align:center;
+.heading{
+    height: 200px;
+    line-height: 200px;
+    border: 2px solid;
+    text-align: center;
 }
-p{
+
+.heading h1{
+    color:brown;
+}
+.description{
+    height: 400px;
+    text-align: center;
+    border: 2px solid;
+}
+.description p{
     color: red;
 }
-a{
+.work{
+    border: 2px solid;
+    text-align: center;
+}
+.work a{
     font-size: large;
     text-decoration: none;
     text-transform: capitalize;
